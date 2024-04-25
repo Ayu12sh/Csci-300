@@ -11,7 +11,7 @@ CReadFile::CReadFile(QObject *parent) : QObject(parent) {}
 
 void CReadFile::readAndOrganizeMovies()
 {
-    QDir directory("//Users/ayushsilwal/Documents/CS200_finalQT");
+    QDir directory("//Users/ayushsilwal/Documents/CS300_finalQT");
 
     QFile file(directory.filePath("input.txt"));
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
